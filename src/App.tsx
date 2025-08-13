@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-      <Form />
+      <div className="flex justify-center items-center h-screen w-screen bg-black">
+        <p className="text-white text-4xl text-center">Kelia</p>
+      </div>
     </>
   )
 }
