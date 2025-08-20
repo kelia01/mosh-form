@@ -1,5 +1,4 @@
 
-import Cart from './components/Cart'
 import Password from './components/Password'
 
 const App = () => {
