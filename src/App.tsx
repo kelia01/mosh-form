@@ -1,10 +1,11 @@
 
 import Cart from './components/Cart'
+import Password from './components/Password'
 
 const App = () => {
   return (
     <div>
-      <Cart />
+      <Password />
     </div>
   )
 }
