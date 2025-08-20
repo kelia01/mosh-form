@@ -12,7 +12,7 @@ const Form = () => {
         <label htmlFor="name" className="form-label">
           Name
         </label>
-        <input { ...register('name')} id="name" type="text" className="form-control" />
+        <input { ...register('name', {required:true, minLength: 3 })} id="name" type="text" className="form-control" />
       </div>
       <div className="mb-3">
         <label htmlFor="age" className="form-label">Age</label>
