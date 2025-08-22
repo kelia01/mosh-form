@@ -1,4 +1,3 @@
-
 import Password from './components/Password'
 
 const App = () => {
