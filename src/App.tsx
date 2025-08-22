@@ -1,10 +1,11 @@
-import Password from './components/Password'
+import { Button, Heading, Box } from "@chakra-ui/react"
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Password />
-    </div>
+    <Box textAlign="center" mt={10}>
+      <Heading mb={4}>Hello Chakra + Vite!</Heading>
+      <Button colorScheme="teal">Click Me</Button>
+    </Box>
   )
 }
 
