@@ -1,10 +1,11 @@
 
+import Counter from './components/Counter'
 import Fetch from './components/Fetch'
 
 const App = () => {
   return (
     <div>
-      <Fetch />
+      <Counter />
     </div>
   )
 }
