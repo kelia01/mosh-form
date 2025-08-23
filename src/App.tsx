@@ -1,10 +1,10 @@
-import React from 'react'
-import LoginForm from './components/LoginForm'
+
+import Fetch from './components/Fetch'
 
 const App = () => {
   return (
     <div>
-      <LoginForm />
+      <Fetch />
     </div>
   )
 }
