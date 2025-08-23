@@ -1,11 +1,11 @@
-import { Button, Heading, Box } from "@chakra-ui/react"
+import React from 'react'
+import LoginForm from './components/LoginForm'
 
-function App() {
+const App = () => {
   return (
-    <Box textAlign="center" mt={10}>
-      <Heading mb={4}>Hello Chakra + Vite!</Heading>
-      <Button colorScheme="teal">Click Me</Button>
-    </Box>
+    <div>
+      <LoginForm />
+    </div>
   )
 }
 
